@@ -1,0 +1,66 @@
+name: vat_helper
+description: "Moms master is a comprehensive business calculator designed to streamline and simplify the financial calculations and projections for businesses. With a user-friendly interface and a wide range of functionalities, EconoMaster can handle everything from simple calculations to complex financial forecasts. Whether you're calculating profit margins, forecasting revenue growth, or analyzing investment opportunities, EconoMaster is the tool to help you make informed business decisions. Built with Flutter, EconoMaster is a cross-platform application that runs smoothly on both iOS and Android devices."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  auto_size_text: ^3.0.0
+  cupertino_icons: ^1.0.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/Icon-512.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/Icon-512.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
+    - assets/lang/
+    - assets/lang/en.json
+    - assets/icons/
+    - assets/icons/Icon-1024.png
+    - assets/icons/Icon-512.png
+    - assets/icons/Icon-256.png
+    - assets/icons/Icon-196.png
+    - assets/icons/Icon-180.png
+    - assets/icons/Icon-172.png
+    - assets/icons/Icon-167.png
+    - assets/icons/Icon-144.png
+    - assets/icons/Icon-128.png
+    - assets/icons/Icon-120.png
+    - assets/icons/Icon-114.png
+    - assets/icons/Icon-100.png
+    - assets/icons/Icon-88.png
+    - assets/icons/Icon-87.png
+    - assets/icons/Icon-80.png
+    - assets/icons/Icon-76.png
+    - assets/icons/Icon-72.png
+    - assets/icons/Icon-64.png
+    - assets/icons/Icon-60.png
+    - assets/icons/Icon-58.png
+    - assets/icons/Icon-57.png
+    - assets/icons/Icon-55.png
+    - assets/icons/Icon-50.png
+    - assets/icons/Icon-48.png
+    - assets/icons/Icon-40.png
+    - assets/icons/Icon-32.png
+    - assets/icons/Icon-29.png
+    - assets/icons/Icon-20.png
+    - assets/icons/Icon-16.png
